@@ -1,7 +1,7 @@
 from functions_ import add_task
 from functions_ import view_tasks
 from functions_ import mark_completed
-
+from functions_ import del_tasks
 to_do_list = {
 
 
@@ -29,7 +29,7 @@ def main():
         if ans =='3': #write a function that marks a tasks complete
             mark_completed()
         if ans =='4' : #write a function that deletes a task
-            pass
+            del_tasks()
         if ans=='5':
             break
 
@@ -38,6 +38,5 @@ main()
 
 
 
-def del_tasks():
-    user_input = input("Which task would you like to delete?")
+
     
